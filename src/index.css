@@ -1,0 +1,163 @@
+/*  HomePage */
+/*  HomePage */
+
+.whole{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.wholeContainer{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.SearchSide{
+  display: flex;
+  width: 65%;
+  flex-direction: column;
+}
+
+.MapSide{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.InputBox{
+  display: flex;
+  height: 60px;
+  width: 85%;
+  border-radius: 5px;
+  border: 2px solid #666666;
+  justify-content: center;
+  align-items:center;
+  cursor: pointer;
+}
+
+.InputBox:hover{
+  background-color: #666666;
+}
+
+
+.getStartedButton{
+  font-size:25px;
+  font-family:"Faculty Glyphic", sans-serif;
+  color:#FFF;
+}
+
+
+.search{
+  height: 60px;
+  display: flex;
+  width:15%;
+  border-radius: 5px;
+  border: 2px solid white;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchFlex{
+  display:flex;
+  width:100%;
+}
+
+.getLocation{
+  text-decoration: none;
+  color: #cfcfcf;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: "Faculty Glyphic", sans-serif;
+}
+
+.getLocation:hover{
+  color: #fff;
+}
+
+
+/*  HomePage */
+/*  HomePage */
+
+.LogoDiv{
+  display:flex ;
+  height:15%;
+  width:100%;
+  background-color:transparent;
+  flex-direction:row;
+}
+
+.LogoStyle{
+  height:65.71px;
+  width:152.56px;
+  margin-left:30px;
+  margin-top:20px;
+}
+
+
+/*  WeatherPage */
+/*  WeatherPage */
+
+
+.WholeContainerW{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFF;
+}
+
+.Today{
+  display: flex;
+  height: 95%;
+  width: 35%;
+  border-radius: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.OtherDays{
+  display: flex;
+  height: 95%;
+  width: 10%;
+  border-radius: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wholeDayForeCast{
+  display:flex;
+  flex-direction: column;
+  height:90px;
+  width:65px;
+  border-radius:5px;
+  margin:10px;
+  justify-content:center;
+  align-items:center
+}
+
+
+/*  WeatherPage */
+/*  WeatherPage */
+
+
+
+.janina{
+  border: 2px solid white;
+}
